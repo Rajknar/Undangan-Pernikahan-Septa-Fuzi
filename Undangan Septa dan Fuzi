@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan Septa & Fuzi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffaf7;
+      color: #333;
+    }
+    header {
+      background: #ffe9f0;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-weight: normal;
+      margin-top: 0;
+    }
+    section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 600px;
+      padding: 20px;
+      text-align: left;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    footer {
+      background: #fbe5ec;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .btn-map {
+      background: #e91e63;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .qr {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Septa & Fuzi</h1>
+  <h2>Undangan Pernikahan</h2>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Calon Mempelai Wanita</h2>
+    <p><strong>Nama Lengkap:</strong> Septa Mughni Alifia</p>
+    <p><strong>Nama Panggilan:</strong> Septa</p>
+    <p><strong>Putri Pertama dari:</strong> Bp. Gunardi & Ibu Yuni Skripsiyanti</p>
+  </div>
+
+  <div class="card">
+    <h2>Calon Mempelai Pria</h2>
+    <p><strong>Nama Lengkap:</strong> Ahmad Fuzi</p>
+    <p><strong>Nama Panggilan:</strong> Fuzi</p>
+    <p><strong>Putra Keempat dari:</strong> Bp. Satiman & Ibu Sumilah (Alm)</p>
+  </div>
+
+  <div class="card">
+    <h2>Akad Nikah</h2>
+    <p><strong>Hari & Tanggal:</strong> Rabu, 18 Juni 2025</p>
+    <p><strong>Jam:</strong> 09.00 WIB</p>
+    <p><strong>Tempat:</strong> Perum Lentera Prigi blok C no.19<br>Kel. Mranggen, Kec. Mranggen, Kab. Demak</p>
+  </div>
+
+  <div class="card">
+    <h2>Resepsi Pernikahan</h2>
+    <p><strong>Hari & Tanggal:</strong> Minggu, 22 Juni 2025</p>
+    <p><strong>Jam:</strong> 13.00 – 16.00 WIB</p>
+    <p><strong>Alamat:</strong> Perum Lentera Prigi blok C no.19<br>Kel. Mranggen, Kec. Mranggen, Kab. Demak</p>
+    <a class="btn-map" href="https://maps.app.goo.gl/euLqRVudayHCgwja6?g_st=awb" target="_blank">Lihat Lokasi di Google Maps</a>
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/euLqRVudayHCgwja6?g_st=awb" alt="QR Lokasi">
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Galeri Kenangan</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250x180?text=Foto+1" alt="Foto 1">
+    <img src="https://via.placeholder.com/250x180?text=Foto+2" alt="Foto 2">
+  </div>
+</section>
+
+<footer>
+  Terima kasih atas doa & restunya. Sampai jumpa di hari bahagia kami.<br>
+  &copy; 2025 Septa & Fuzi
+</footer>
+
+<!-- Musik Latar -->
+<audio autoplay loop hidden>
+  <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
